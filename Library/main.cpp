@@ -14,8 +14,6 @@
 
 
 int main() {
-	cout << "This is the Image Processing Library of Maria Leousi\n";
-	cout << "------------------------------------------------------\n" << "\n";
 	cout << "Please enter input filename: \n";
 	string iname;
 	cin >> iname;
@@ -84,8 +82,8 @@ int main() {
 		compFilter.update();
 
 		shared_ptr<Image> image_out_comp = compFilter.getOutput();
-		string nameÏUT_comp = name + "_complement" + "_out" + extension;
-		io = ImageIOFactory::getIO(nameÏUT_comp);
+		string nameÃUT_comp = name + "_complement" + "_out" + extension;
+		io = ImageIOFactory::getIO(nameÃUT_comp);
 		io->write(*image_out_comp);
 	}
 
