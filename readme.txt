@@ -3,7 +3,7 @@ Image Processing Library
 
 -----------------------------------
 
-Implemented Filters:
+Implemented Filters for up to 5D images:
 	1)ThresholdImageFilter.h : 	applies a user-defined threshold to the input image.
 	2)StatisticsImageFilter.h : 	calculates the minimun, maximum and mean intensity values of the input image.
 	3)MaskImageFilter.h : 		applies a mask on the input image.
