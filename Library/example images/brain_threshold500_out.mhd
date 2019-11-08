@@ -1,0 +1,4 @@
+NDims = 3
+DimSize =  109 91 80
+ElementType = MET_SHORT
+ElementDataFile = brain_threshold500_out.raw
